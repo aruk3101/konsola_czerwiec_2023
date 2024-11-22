@@ -41,6 +41,9 @@ namespace konsola_czerwiec_2023
             return wypozyczenia;
         }
 
-       
+        public void Inkrementuj()
+        {
+            wypozyczenia++;
+        }
     }
 }

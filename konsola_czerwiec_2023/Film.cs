@@ -7,7 +7,17 @@ using System.Threading.Tasks;
 namespace konsola_czerwiec_2023
 {
 
-    
+    /******************************************************
+     nazwa          klasy: Film
+     pola:          tytul - Tytul filmu
+                    wypozyczenia - liczba wypozyczen 
+     metody:        SetTytul, void – ustawia nową wartość tytułu
+                    GetTytul, string – zwraca tytuł
+                    GetWypozyczenia, int – zwaraca listę wypożyczeń
+                    Inkrementuj, void – zwiększa liczbę wypożyczeń
+     informacje:    Klasa reprezentuje film, zawiera informacje o tytule oraz liczbie wypożyczeń
+     autor:         Damian Raczek
+    *****************************************************/
     public class Film
     {
         protected string tytul;
